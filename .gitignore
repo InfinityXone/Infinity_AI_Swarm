@@ -1,0 +1,60 @@
+# ---- General ----
+.DS_Store
+Thumbs.db
+*.log
+logs/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+.env
+.env.local
+.env.*.local
+*.secret
+secrets/
+state/memory.db
+state/*.json
+
+# ---- Python ----
+.venv/
+venv/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# ---- Node / Next.js ----
+node_modules/
+.npm/
+.next/
+out/
+.cache/
+*.tsbuildinfo
+
+# ---- Docker ----
+*.pid
+*.seed
+.dockerignore
+docker-compose.override.yml
+
+# ---- Kubernetes ----
+*.crt
+*.key
+
+# ---- Supabase ----
+.supabase/
+supabase/.temp
+supabase/.backup
+supabase/.logs
+
+# ---- Frontend build outputs ----
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# ---- Experiments & local notes ----
+experiments/
+*.ipynb
+notebooks/
+tmp/
